@@ -7,7 +7,6 @@ use App\Http\Controllers\Usuario;
 //    return view('welcome');
 //});
 
-
 // Rota para o formulário de cadastro
 Route::get('/', [Usuario::class, 'cadastrar']);
 

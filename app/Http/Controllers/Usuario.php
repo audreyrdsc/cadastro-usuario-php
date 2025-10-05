@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class Usuario extends Controller
 {
     public function cadastrar() {
-        echo 1000;
+        echo "Rota para função cadastrar funcionando corretamente";
     }
 
     public function salvar(Request $request) {
