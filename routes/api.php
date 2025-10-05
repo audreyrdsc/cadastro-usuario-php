@@ -10,7 +10,11 @@ use Illuminate\Http\Request;
 
 //Rota para API
 Route::prefix('v1')->group(function () {
-    Route::get('/lista', function() {
+    Route::get('lista', function() {
         return ['a', 'b', 'c'];
+    });
+
+    Route::post('cadastra', function() {
+        echo "Em implementação";
     });
 });
