@@ -8,7 +8,7 @@ use App\Http\Controllers\Usuario;
 //});
 
 // Rota para o formulário de cadastro
-Route::get('/', [Usuario::class, 'cadastrar']);
+Route::get('/', [Usuario::class, 'cadastrar'])->name('home');
 
 // Rota para salvar os dados
-Route::post('/salvar', [Usuario::class, 'salvar']);
+Route::post('/salvar', [Usuario::class, 'salvar'])->name('salvar');
